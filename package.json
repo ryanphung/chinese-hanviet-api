@@ -2,8 +2,10 @@
   "name": "json-server-deploy",
   "version": "1.0.0",
   "description": "Simple json database to deploy to the host of your choice",
+  "type": "module",
   "main": "server.js",
   "scripts": {
+    "sync": "node sync.js",
     "start": "node server.js"
   },
   "keywords": [
@@ -13,5 +15,8 @@
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.17.0"
+  },
+  "devDependencies": {
+    "node-fetch": "^3.0.0"
   }
 }

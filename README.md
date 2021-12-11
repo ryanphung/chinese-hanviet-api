@@ -2,6 +2,8 @@
 
 An API built using [json-server](https://github.com/typicode/json-server) based on the template [json-server-heroku](https://github.com/jesperorb/json-server-heroku) that allows you to look up Chinese and Han Viet cognates based on the data from [chinese-hanviet-cognates](https://github.com/ryanphung/chinese-hanviet-cognates).
 
+I created it for personal usage in my Anki deck, where I can display the list of Hanviet words for every Chinese character that I learn.
+
 ## Demo
 
 * https://chinese-hanviet-api.herokuapp.com/words?word_like=可
